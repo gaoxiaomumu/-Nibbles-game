@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>贪吃蛇大战</title>
+		<style>
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		#map{
+
+			    width:800px;
+				height:400px;
+				background-color: #CC9;
+				position: relative;
+		}
+			#over{
+				width:800px;
+				height:400px;
+				background-color:#ccc;
+				z-index:100;
+			    position: absolute;
+			    left:0;
+			    top:0;
+				text-align:center;
+				line-height:400px;
+				display: none;
+				font-size: 30px;
+				color:#999;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id='map'>
+			
+		</div>
+		<div id='over'>
+			     
+		</div>
+		<script type="text/javascript" src='main.js'></script>
+		<script type="text/javascript" src='map.js'></script>
+		<script type="text/javascript" src='food.js'></script>
+		<script type="text/javascript" src='snake.js'></script>
+
+	</body>
+</html>
